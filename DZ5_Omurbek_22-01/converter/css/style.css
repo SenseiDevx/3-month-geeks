@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.som, .usd, .euro, .rub, .yuan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #04F5C9FF 0%, #04f5c9 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.som:hover, .usd:hover, .euro:hover, .rub:hover, .yuan:hover {
+    transform: scale(1.1);
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="number"]:focus {
+    outline: none;
+    background-color: #fff;
+}
